@@ -1,2 +1,2 @@
-# guide_ansible
-Guide d'initiation à Ansible avec installation, configuration et premiers playbooks.
+# Guide d'installation et configuration Ansible ↔ Netbox
+Ce guide explique comment intégrer NetBox comme source d'inventaire dynamique pour Ansible. Il détaille l'installation et la configuration de NetBox, ainsi que l'installation d'Ansible dans un environnement virtuel Python. L'objectif final est de permettre à Ansible d'exploiter les données stockées dans NetBox pour automatiser la gestion des infrastructures de manière dynamique, sans avoir à renseigner manuellement les informations des dispositifs. Cela permet d'éviter les erreurs d'automatisation causées par un inventaire statique non maintenu à jour.
