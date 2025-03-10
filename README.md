@@ -1,2 +1,8 @@
 # Guide d'installation et configuration Ansible ↔ Netbox
+## Introduction
 Ce guide explique comment intégrer NetBox comme source d'inventaire dynamique pour Ansible. L'objectif final est de permettre à Ansible d'exploiter les données stockées dans NetBox pour automatiser la gestion des infrastructures de manière dynamique, sans avoir à renseigner manuellement les informations des dispositifs permettant ainsi d'éviter les erreurs causées par un inventaire statique non maintenu à jour.
+
+## Définitions
+### Ansible
+Ansible est un 
+### Netbox
