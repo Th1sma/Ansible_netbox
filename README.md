@@ -40,7 +40,7 @@ ansible-galaxy collection install netbox.netbox
 ```bash
 plugin: netbox.netbox.nb_inventory
 api_endpoint: "http://localhost:8000"
-token: "VOTRE_TOKEN_NETBOX"
+token: "TOKEN_NETBOX"
 validate_certs: false
 ```
 3. Tester la connexion de notre hôte Ansible avec Netbox
@@ -49,4 +49,4 @@ ansible-inventory -i netbox_inventory.yml --list
 ```
 
 ## Conclusion
-Avec cette configuration, Ansible peut désormais récupérer dynamiquement la liste des équipements inventorié dans votre Netbox et les utiliser dans ses playbooks.
+Avec cette configuration, Ansible peut désormais récupérer dynamiquement la liste des équipements inventorié dans Netbox et les utiliser dans ses playbooks.
